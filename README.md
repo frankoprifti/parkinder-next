@@ -62,7 +62,7 @@ git clone <repository_url>
 
 ```sh
 
-cd wemolo-frontend-challenge
+cd parkinder-next
 
 ```
 
