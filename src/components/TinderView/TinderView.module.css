@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  max-width: 345px;
+  margin-bottom: 16px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.iconButtonGood {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+.iconButtonGood:hover {
+  background-color: red;
+}
+.iconButtonBad {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: #fff;
+}
+.iconButtonBad:hover {
+  background-color: blue;
+  color: #fff;
+}

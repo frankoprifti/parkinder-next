@@ -1,0 +1,34 @@
+schema {
+  query: Query
+}
+
+type Lot {
+  address: String!
+  id: String!
+  image: String
+  live_date: String
+  name: String!
+  size: Int!
+  status: String!
+  type: String!
+}
+
+input LotWhereInput {
+  id: String
+  status: String
+  type: String
+}
+
+type Query {
+  distinctStatuses: [Statuses]
+  distinctTypes: [Types]
+  getAllParkingLots(limit: Int, offset: Int, where: LotWhereInput): [Lot]
+}
+
+type Statuses {
+  status: String!
+}
+
+type Types {
+  type: String!
+}
