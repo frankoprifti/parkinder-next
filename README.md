@@ -1,3 +1,9 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/28ef4188-01a4-40e8-bac6-c6f661b220d3/deploy-status)](https://app.netlify.com/sites/parkinder/deploys)
+
+# Preview Link
+
+[https://parkinder.netlify.app/](https://parkinder.netlify.app/)
+
 # Wemolo Frontend Challenge
 
 Welcome to the Wemolo Frontend Coding Challenge! This application is a training tool to evaluate parking lots, inspired by the Tinder UI. You can swipe right to label a parking lot as outstanding and swipe left to avoid it. You can also review your choices from the session in a summary view.
